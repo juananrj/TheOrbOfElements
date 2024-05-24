@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwcy5p38h2irj"]
+
+[ext_resource type="PackedScene" uid="uid://brwotvjwtncqh" path="res://Scenes/combat/camino_al_santuario.tscn" id="1_e53na"]
+
+[node name="CaminoSantuario" type="Node2D"]
+
+[node name="Camino al santuario" parent="." instance=ExtResource("1_e53na")]

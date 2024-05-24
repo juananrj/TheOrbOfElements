@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2v2ahnhwek6y"]
+
+[ext_resource type="Script" path="res://Scenes/pruebas/player.gd" id="1_7apxo"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_xm8h0"]
+size = Vector2(20, 20)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_7apxo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = SubResource("PlaceholderTexture2D_xm8h0")
+
+[node name="Tile" type="Label" parent="."]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(100, 0)
+offset_left = -50.0
+offset_top = -33.0
+offset_right = 50.0
+offset_bottom = -10.0
+horizontal_alignment = 1
+vertical_alignment = 1
