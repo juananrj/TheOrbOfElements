@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=3 format=3 uid="uid://ia7lgokkjwib"]
+
+[ext_resource type="Script" path="res://Enemies/EnemyClass.gd" id="1_4so1q"]
+[ext_resource type="Texture2D" uid="uid://bfdgx8smhjbyx" path="res://Assets/Enemies/Cultist/Left/Png/esqueleto.png" id="2_y8rjr"]
+
+[resource]
+script = ExtResource("1_4so1q")
+name = ""
+texture = ExtResource("2_y8rjr")
+HP = 20
+XP = 10
+gold = 5
+ATK = 4
+DEF = 2

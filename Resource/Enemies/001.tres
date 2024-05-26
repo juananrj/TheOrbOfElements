@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=3 format=3 uid="uid://dnbbt1ij702lt"]
+
+[ext_resource type="Script" path="res://Enemies/EnemyClass.gd" id="1_y5wa5"]
+[ext_resource type="Texture2D" uid="uid://cy3w4xcpgbmyh" path="res://Assets/Enemies/Goblin_Beast/Left/Png/GoblinBeastLeftIdle.png" id="2_5ermp"]
+
+[resource]
+script = ExtResource("1_y5wa5")
+name = "Goblin"
+texture = ExtResource("2_5ermp")
+HP = 12
+XP = 100
+gold = 8
+ATK = 8
+DEF = 2
