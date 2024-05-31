@@ -13,5 +13,5 @@ func _ready():
 	load_data()
  
 func load_data():
-	bg.texture = load(BG_FOLDER+ "/" + Manager.area + ".png")
+	bg.texture = load(BG_FOLDER+ "/" + Manager.area + ".jpg")
 	enemy = Manager.get_enemy()

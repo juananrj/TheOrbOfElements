@@ -8,7 +8,7 @@ extends Control
 @onready var options_menu = $Options_Menu as OptionsMenu
 @onready var margin_container = $MarginContainer as MarginContainer
 
-@onready var start_level = preload("res://Scenes/combat/combat.tscn") as PackedScene
+@onready var start_level = preload("res://Scenes/rutes/inicio.tscn") as PackedScene
 
 
 func _ready():
