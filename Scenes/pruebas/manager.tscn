@@ -12,6 +12,7 @@ enemy_folder = "res://Resource/Enemies"
 [node name="Debug" type="CanvasLayer" parent="."]
 
 [node name="HBoxContainer" type="HBoxContainer" parent="Debug"]
+visible = false
 offset_left = 14.0
 offset_top = 19.0
 offset_right = 150.0
